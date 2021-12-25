@@ -19,7 +19,7 @@ if (process.env.NODE_ENV==='development') {
     timeout: 50000 // 请求超时时间
   });
 } else {
-  // 生产环境下
+  // 生产环境下sw
   service = axios.create({
     baseURL: "/api",
     timeout: 50000
